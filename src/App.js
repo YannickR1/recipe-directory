@@ -7,7 +7,7 @@ import Search from "./pages/search/Search";
 import Recipe from "./pages/recipe/Recipe";
 
 // components
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 
 // style
 import "./App.css";
