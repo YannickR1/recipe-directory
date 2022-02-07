@@ -47,6 +47,39 @@
       "method": "gewoon is teste",
       "cookingTime": "5 minutes",
       "id": "5PbZo51"
+    },
+    {
+      "title": "Veg Pie 2",
+      "ingredients": [
+        "Mushrooms",
+        "leeks",
+        "mushrooms",
+        "nog mushrooms"
+      ],
+      "method": "iets me mushrooms",
+      "cookingTime": "10 minutes",
+      "id": "y3lkbY2"
+    },
+    {
+      "title": "Mushrooms",
+      "ingredients": [
+        "Mushrooms"
+      ],
+      "method": "cook the mushrooms\n",
+      "cookingTime": "2 minutes",
+      "id": "VxZM8m_"
+    },
+    {
+      "title": "Mushroom pizza",
+      "ingredients": [
+        "mushrooms",
+        "pizza dough",
+        "tomato sauce",
+        "cheese"
+      ],
+      "method": "make the pizza",
+      "cookingTime": "35 minutes",
+      "id": "gUqVWj_"
     }
   ]
 }
