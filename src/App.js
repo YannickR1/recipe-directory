@@ -12,10 +12,12 @@ import Navbar from "./components/navbar/Navbar";
 // style
 import "./App.css";
 import { ThemeSelector } from "./components/theme-selector/ThemeSelector";
+import { useTheme } from "./hooks/useTheme";
 
 function App() {
+  const { mode } = useTheme()
   return (
-    <div className="App">
+    <div className={`App ${mode}`}>
       <Router>
       <Navbar />
       <ThemeSelector />
