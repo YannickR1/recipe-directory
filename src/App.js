@@ -11,12 +11,14 @@ import Navbar from "./components/navbar/Navbar";
 
 // style
 import "./App.css";
+import { ThemeSelector } from "./components/theme-selector/ThemeSelector";
 
 function App() {
   return (
     <div className="App">
       <Router>
       <Navbar />
+      <ThemeSelector />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/create" element={<Create />} />
