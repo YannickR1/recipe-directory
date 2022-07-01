@@ -19,9 +19,6 @@ export default function Recipe() {
       title: 'Something completely different'
     })
   }
-
-
-
   useEffect(() => {
     setIsPending(true)
     
@@ -51,7 +48,7 @@ export default function Recipe() {
             {recipe.ingredients.map(ing => <li key={ing}>{ing}</li>)}
           </ul>
           <p className="method">{recipe.method}</p>
-          <button onClick={handleClick}>Update me</button>
+          <button onClick={handleClick} className="update-btn"> Update me</button>
         </>
         
       )}

@@ -36,3 +36,23 @@
   .recipe.dark .page-title {
     color: #f1efef;
   }
+
+  .update-btn {
+    border: none;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    background: #e2e2e2;
+    font-size: 0.9em;
+    width: 100px;
+    text-align: center;
+    width: 120px;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 20px auto 0;
+  }
+
+  .update-btn:hover {
+    color: #e2e2e2;;
+    background: #333;
+  }
